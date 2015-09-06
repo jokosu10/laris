@@ -12,8 +12,29 @@ Laris is a minimal ecommerce engine that encourage to integrate rather than to d
 - Easy to test
 - Easy to integrate
 
+It aims to implement a scalable and performant API as the foundation of modern ecommerce web site 
+which scale up to hundreds of thousands SKUs with large number of hierarchical categories.
 
-Why?
+
+Goal
 ----
 
-Ask why 5 times in a row.
+- consumable by web cms, mobile apps, 3rd party integrations
+- scale up to millions SKUs
+- support large number of hierarchical categories
+- advanced product information: variants, attributes (color, tags, size, etc)
+
+
+Architecture
+------------
+
+- JAX-RS
+- JCR
+
+
+Current Implementation
+----------------------
+
+- Maven
+- JAX-RS : Jersey
+- Packaging : WAR file
